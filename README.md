@@ -47,6 +47,11 @@ then try downgrading those errors like this:
 
     caffeinate bundle exec soloist
 
+## Caveats
+
+- Homebrew cask has been [integrated](https://github.com/caskroom/homebrew-cask/pull/15381) with Homebrew proper. If you are experiencing problems installing casks and
+  have an older installation of Homebrew, running `brew uninstall --force brew-cask; brew update` should fix things.
+
 ## Roadmap
 
 See Pivotal Tracker: https://www.pivotaltracker.com/s/projects/884116
