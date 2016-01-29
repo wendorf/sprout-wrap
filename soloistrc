@@ -80,6 +80,7 @@ node_attributes:
       - wget
       - rbenv-binstubs
     casks:
+      - not-a-real-cask-asdf
       - firefox
       - flycut
       - rowanj-gitx
